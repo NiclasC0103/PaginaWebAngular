@@ -10,9 +10,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot(router)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
