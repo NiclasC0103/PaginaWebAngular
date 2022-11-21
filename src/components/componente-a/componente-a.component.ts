@@ -13,4 +13,10 @@ export class ComponenteAComponent implements OnInit {
   navegacion1(){
     this.router.navigate(['pagina2'])
   }
+  navegacion2(){
+    this.router.navigate(['pagina3'])
+  }
+  navegacion3(){
+    this.router.navigate(['pagina4'])
+  }
 }
