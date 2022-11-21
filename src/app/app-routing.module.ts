@@ -8,6 +8,9 @@ import { ComponenteDComponent } from 'src/components/componente-d/componente-d/c
 
 const routes: Routes = [
   {
+    path: '', component: ComponenteAComponent
+  },  
+  {
     path: 'home', component: ComponenteAComponent
   },
   {
